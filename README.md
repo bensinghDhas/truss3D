@@ -1,6 +1,9 @@
 # truss3D
 MATLAB library to solve 3D truss structures.
 
+## Installation
+truss3D can be installed using MATLAB's addon manager, however a simpler way to install the tool is to just add the path of the truss3D root folder to MATLAB's path variable.
+
 ## Interfaces
 Use nodes and edges to create a truss. nodes is an n x 3 array, which represent n points in 3D space. edges is a m x 2 array describing the node numbers of start and end nodes.
 ```
