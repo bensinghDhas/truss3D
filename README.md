@@ -21,3 +21,10 @@ Display the deformed shape of the truss.
 truss.plotReferenceConfig(figId, lineColour);
 truss.plotDeformedConfig(figId, lineColour);
 ```
+## Checks
+Check for duplicate nodes and duplicate edges.
+```
+truss.checkDuplicateNodes();
+truss.checkDuplicateEdges();
+```
+It is adviceable to do the input checks before setting the Neuman and Dirichlet boundary conditions.
