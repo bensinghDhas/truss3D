@@ -22,7 +22,7 @@ truss.plotReferenceConfig(figId, lineColour);
 truss.plotDeformedConfig(figId, lineColour);
 ```
 ## Checks
-Check for duplicate nodes and duplicate edges.
+Check for duplicate and duplicate edges.
 ```
 truss.checkDuplicateNodes();
 truss.checkDuplicateEdges();
