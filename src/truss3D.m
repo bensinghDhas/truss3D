@@ -6,7 +6,7 @@ classdef truss3D< handle
         noNd
     end
     methods
-        %%Constructor
+        %% Constructor
         function obj=truss3D(nodes, edges)
             if (size(nodes,2)==3 && size(edges,2)==2)
                 obj.nodes=nodes;
@@ -18,7 +18,7 @@ classdef truss3D< handle
             end
         end
 
-        %%plotting functions
+        %% plotting functions
         function plot(obj,figId)
             figure(figId)
             hold on;
